@@ -10,4 +10,4 @@
 
 Just run `xxian_spider.py`
 
->数据来源[豆瓣](www.douban.com)
+>数据来源[豆瓣电影](https://movie.douban.com/)

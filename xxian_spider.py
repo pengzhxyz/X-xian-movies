@@ -80,7 +80,7 @@ def plot_report():
         plt.text(imgs_data.shape[1]//2, imgs_data.shape[0]+ 60 + (m_i+1)*40,
                  m['title']+'  '+rating,horizontalalignment='center', fontproperties=font)
     plt.text(imgs_data.shape[1] // 2, imgs_data.shape[0] + 60 + (len(movies)+1) * 40 + 10,
-             u'评分来自：豆瓣', horizontalalignment='center', fontproperties=font)
+             u'评分来自：豆瓣电影', horizontalalignment='center', fontproperties=font)
     plt.text(imgs_data.shape[1] // 2, imgs_data.shape[0] + 50 + (len(movies)+1)* 40 + 100,
              '@ %s'%repo_url, horizontalalignment='center')
     plt.axis('off')
